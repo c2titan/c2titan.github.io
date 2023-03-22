@@ -1,8 +1,8 @@
 
 # I2S to TDA1540
-Project download: (https://github.com/c2titan/I2S-TDA1540)
+Project download (https://github.com/c2titan/I2S-TDA1540)
 
-VHDL code for converting standard I2S data (64fs) to the offset-binary data needed for TDA1540 DAC.
+VHDL code for converting standard I2S data (64fs) to the offset-binary data needed for TDA1540 DAC (I2S to simultaneous for TDA1540).
 "I2S 2x32=64-bit = 64fs" to "14-bit offset-binary" with inverted MSB and inverted stop-clocked BCK) for TDA1540 DAC (stereo) without the use of MCLK (= even less digital work)
 - basic data synchronisation is incorporated on LRCK signal
 - the sound is nice, very musical, clean, without digital interference
