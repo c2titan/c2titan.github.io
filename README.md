@@ -13,3 +13,22 @@ VHDL code for converting standard I2S data (64fs) to the offset-binary data need
 - output is true offset-binary specified for TDA1540: -- CL - stopped Left DAC clock -- DL - Left DAC data (inversed MSB) -- CR - stopped Right DAC clock -- DR - Right DAC data (inversed MSB) -- LL and LR - Latch for both channels (latched together)
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
+
+
+# I2S to simultaneous for TDA1541A
+[Project download](https://github.com/c2titan/I2S-simultaneous-TDA1541A)
+
+VHDL code for converting standard I2S signal (64fs) to offset-binary (simultaneous) ("I2S 2x32=64-bit = 64fs" to "16-bit offset-binary" with inverted MSB and stop-clocked BCK) for TDA1541A DAC (stereo) without the use of MCLK.
+- basic data synchronisation is incorporated on LRCK signal
+- the sound is nice, clean, without digital interference
+- my VHDL code is very simple, without advanced techniques, based mostly on standard logic
+- therefore inexperienced users can understand and modify it for other similar DACs
+- it has low load on the CPLD and it takes up little memory
+- only 3 signal wires (I2S) are needed for input (DATA, BCK, LRCK).
+- output is true offset-binary (simultaneous) specified for TDA1541A: 
+- - CL - stopped DAC clock 
+- - DL - Left DAC data (inversed MSB) 
+- - DR - Right DAC data (inversed MSB)
+- - LE - Latch for both channels (latched together)
+- it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
+- my VHDL code is open and free for all
