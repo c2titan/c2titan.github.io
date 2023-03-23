@@ -1,4 +1,4 @@
-
+-----------------------------------------------------------
 # I2S to TDA1540
 [Project download](https://github.com/c2titan/I2S-TDA1540)
 
@@ -14,7 +14,7 @@ VHDL code for converting standard I2S data (64fs) to the offset-binary data need
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
 
-
+-----------------------------------------------------------
 # I2S to simultaneous for TDA1541A
 [Project download](https://github.com/c2titan/I2S-simultaneous-TDA1541A)
 
