@@ -32,3 +32,9 @@ VHDL code for converting standard I2S signal (64fs) to offset-binary (simultaneo
 - - LE - Latch for both channels (latched together)
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
+
+
+If you like my work and find it helpful, you can donate coffee for me :D 
+- https://www.buymeacoffee.com/miro1360coffee  Thank you :)
+
+miro1360
