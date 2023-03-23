@@ -34,6 +34,7 @@ VHDL code for converting standard I2S signal (64fs) to offset-binary (simultaneo
 - my VHDL code is open and free for all
 
 
+- 
 If you like my work and find it helpful, you can donate coffee for me :D 
 - https://www.buymeacoffee.com/miro1360coffee  Thank you :)
 
