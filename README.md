@@ -33,6 +33,12 @@ VHDL code for converting standard I2S signal (64fs) to offset-binary (simultaneo
 - it flawlessly works with the cheap CPLD EPM240T100C5 from aliexpress and can be easily configured for others
 - my VHDL code is open and free for all
 
+-----------------------------------------------------------
+# I2S to simultaneous for D20400 in the TDA1541A like mode
+[Project download](https://github.com/c2titan/I2S-simultaneous-D20400)
+
+VHDL code for converting standard I2S data (64fs) to the offset-binary data needed for 20-bit D20400 DAC (tested on DAC0013 module), configured in the TDA1541A like mode (ultraanalog-d20400-application-note-ap02-pdf - section: 4.5 Simultaneous / Inverted Clock / Inverted WS/LOAD).
+
 
 -----------------------------------------------------------
 # If you like my work and find it helpful, you can donate coffee for me :D 
